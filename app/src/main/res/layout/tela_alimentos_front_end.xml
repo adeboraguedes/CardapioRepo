@@ -8,8 +8,8 @@
     tools:context=".TelaAlimentosBackEnd">
 
     <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="354dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -18,7 +18,45 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/texto_macarraocarbonara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/texto_macarraocarbonara" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/macarrao" />
+
+            <TextView
+                android:id="@+id/texto_rondelli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/texto_rondelli" />
+
+            <ImageView
+                android:id="@+id/rondelli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/Rondelli" />
+
+            <TextView
+                android:id="@+id/texto_risoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/texto_risoto" />
+
+            <ImageView
+                android:id="@+id/risoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/Risoto" />
+
+        </LinearLayout>
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
